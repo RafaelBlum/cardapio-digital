@@ -1,0 +1,135 @@
+/* ========================================= */
+/*                 RESPONSIVE                */
+/*                   991px                   */
+/*                   768px                   */
+/*                   480px                   */
+/* ========================================= */
+
+
+/* =================  ------- APP *************************************************************************************/
+@media only screen and (max-width: 991px) {
+    body{
+        background: red;
+    }
+
+    /* ============= SECTION PRICING  =============== */
+    .pricing .pricing-wrapper {
+        display: block;
+        align-items: center;
+    }
+
+
+
+    /* =================  CAROUSEL  ================== */
+    .carousel-caption{
+        position: absolute;
+        top: 40%;
+        transform: translateY(-40%);
+    }
+
+    .carousel-caption img{
+        width: 50%;
+
+    }
+
+    .carousel-caption p{
+        font-size: 14px;
+    }
+
+    /* =================  BREADCRUMBS  =============== */
+
+
+    .section-body .breadcrumb-title{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .section-body .breadcrumb-navbar{
+        display: none;
+    }
+
+}
+
+/* =================  TABLETS APP *************************************************************************************/
+@media only screen and (max-width: 768px) {
+
+    body{
+        background: #131dff;
+    }
+
+    /* ============= SECTION PRICING  =============== */
+    .pricing .pricing-wrapper {
+        display: block;
+        align-items: center;
+    }
+
+
+
+    /* =================  PAGE ERROR  =============== */
+    .notfound .notfound-404 h1 {
+        font-size: 182px;
+    }
+
+    /* =================  BREADCRUMBS  =============== */
+    .section-body .breadcrumb-title{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .section-body .breadcrumb-navbar{
+        display: none;
+    }
+}
+
+/* =================  CELLPHONE APP ***********************************************************************************/
+@media only screen and (max-width: 480px) {
+    body{
+        background: #feff20;
+    }
+
+    /* =================  BREADCRUMBS  =============== */
+    .section-body .breadcrumb-title{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .section-body .breadcrumb-navbar{
+        display: none;
+    }
+
+    /* ============= SECTION PRICING  =============== */
+    .pricing .pricing-wrapper {
+        display: block;
+        align-items: center;
+    }
+
+
+
+
+
+    /* =================  PAGE ERROR  =============== */
+    .notfound .notfound-404 {
+        height: 146px;
+    }
+    .notfound .notfound-404 h1 {
+        font-size: 146px;
+    }
+    .notfound h2 {
+        font-size: 16px;
+    }
+    .notfound .home-btn, .notfound .contact-btn {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

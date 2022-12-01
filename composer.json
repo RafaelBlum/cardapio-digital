@@ -1,0 +1,43 @@
+{
+  "nome": "RafaelBlum/cardapior-digital",
+  "description": "Projeto PHP puro com proposito a criação de um menu digital informativo sobre os produtos criados pela confeitaria, demonstrando imagens de cada produto, descrição de ingredientes, dicas de quantidade por pessoa para o evento e valores.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rafael Blum",
+      "email": "rafaelblum_digital@hotmail.com",
+      "homepage": "https://wwww.cardapio-digital.online",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+      "vendor-dir": "vendor"
+  },
+  "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php",
+      "source/Boot/Minify.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*",
+    "phpmailer/phpmailer": "6.4.1",
+    "coffeecode/datalayer": "1.1.2",
+    "coffeecode/router": "1.0.*",
+    "coffeecode/paginator": "1.0.*",
+    "coffeecode/cropper": "1.3.*",
+    "coffeecode/optimizer": "2.0.*",
+    "coffeecode/uploader": "1.0.*",
+    "fzaninotto/faker": "1.8.*",
+    "league/plates": "v4.0.0-alpha",
+    "league/csv": "9.3.*",
+    "dompdf/dompdf": "0.8.*",
+    "matthiasmullie/minify": "1.3.*",
+    "ext-json": "*"
+  }
+}
